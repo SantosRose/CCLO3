@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto Mono");
+
+/* global config */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* global styling */
+body {
+    font-family: 'Roboto Mono', sans-serif;
+    line-height: 1.4em;
+}
+a{
+    color: black;
+    text-decoration: none;
+
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: auto;
+    
+}
+#navbar {
+    background: rgb(238, 222, 222);
+    overflow: auto;
+    border: solid;
+    color: black;
+    margin-bottom: 20px;
+}
+#navbar .logo i {
+    margin: 0px 20px;
+    height: 60px;
+    width: 70px;
+    align-items: center;
+    margin-top: 0%;
+    padding: 14px;
+    color: #fff;
+    border-radius: 100%;
+    background-color: #333;
+    /* background-size: 100vh; */
+}
+#navbar ul {
+    list-style: none;
+    float: left;
+
+}
+#navbar ul li{
+    float: right;
+    padding: 20px 20px 5px 5px;
+    font-size: 1rem;
+   
+}
+#navbar h1{
+    float: right;
+    font-size: 2.7rem;
+}
+#navbar ul li a {
+    display: inline;
+    padding: 5px 10px;
+    margin: 0 0px;
+    color: black;
+    text-align: bottom;
+  
+}
+
+#navbar ul li a:hover {
+    background: gray;
+    color: black;
+}
+#header .div{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    
+  
+
+}
+#header .header-content{
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    float: left;
+    
+}
+.header-content h2,
+.header-content p{
+    padding: 20px;
+}
+#header .header-img{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-right: 10%;
+    float: right;
+}
+#footer{
+    display: inline;
+    list-style: none;
+    text-align: center;
+    padding: 4rem;
+}
+#footer i{
+    color:blue;
+    size: larger;
+}
